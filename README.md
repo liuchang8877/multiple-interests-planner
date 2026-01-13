@@ -74,4 +74,3 @@ Claude will automatically load this skill if it's relevant to your conversation.
 ## Related
 
 - Original content inspired by @thedankoe's work on multiple interests
-- See `咨询记录_20250113.md` for a real-world consultation example
