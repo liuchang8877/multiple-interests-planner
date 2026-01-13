@@ -24,26 +24,41 @@ This skill helps you:
 
 ## Installation
 
-### For Claude Code Users
+### Option 1: Clone via Git (Recommended)
 
-1. Create the skills directory (if it doesn't exist):
+```bash
+# For Claude Code users
+git clone https://github.com/liuchang8877/multiple-interests-planner ~/.claude/skills/life-planning-multiple-interests
+```
+
+### Option 2: Manual Installation
+
+1. Create the skills directory:
    ```bash
    mkdir -p ~/.claude/skills/life-planning-multiple-interests
    ```
 
-2. Clone this repository:
+2. Download the skill files:
    ```bash
-   git clone https://github.com/liuchang8877/multiple-interests-planner ~/.claude/skills/life-planning-multiple-interests
+   curl -o ~/.claude/skills/life-planning-multiple-interests/SKILL.md \
+     https://raw.githubusercontent.com/liuchang8877/multiple-interests-planner/main/SKILL.md
    ```
 
 3. Restart Claude Code
 
-### For Other Claude Products
+### For Claude Code (Pro) / Codex
 
-Skills are stored in `~/.codex/skills` for Claude Code (Pro):
 ```bash
 mkdir -p ~/.codex/skills/life-planning-multiple-interests
 git clone https://github.com/liuchang8877/multiple-interests-planner ~/.codex/skills/life-planning-multiple-interests
+```
+
+## Uninstallation
+
+```bash
+rm -rf ~/.claude/skills/life-planning-multiple-interests
+# or
+rm -rf ~/.codex/skills/life-planning-multiple-interests
 ```
 
 ## Usage
